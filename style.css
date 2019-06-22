@@ -1,0 +1,115 @@
+body {
+    background-color: #5D99F4;
+    padding: 0;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #EF8354;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+}
+
+/* Float the link section to the right */
+.header-right {
+    float: right;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 25px;
+    font-family: Arial;
+}
+
+.Acceuil {
+    background-color: #80A1D4;
+}
+
+
+
+
+
+
+.ArticlePanelMeteo {
+    background-color: #EF8354;
+    width: auto;
+    height: 416px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.DivAffichage {
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.PanelTempmaxmin {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divzonetemp {
+    font-size: 50px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.DivRecherche {
+    padding-top: 170px;
+}
+
+.BtnActualiser {
+    font-size: 17px;
+    background-color: #E4E1DA;
+}
+
+
+
+
+
+.footer {
+    background-color: #EF8354;
+}
+
+.footer-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.AcceuilBottom,
+.ContactBottom,
+.AboutBottom {
+    color: black;
+    font-size: 17px;
+    font-family: Arial;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin-right: auto;
+    margin-left: auto;
+}

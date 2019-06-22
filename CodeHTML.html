@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Premiers tests du CSS</title>
+
+</head>
+
+
+<body onload="OuverturePage()">
+    <div class="header">
+        <a class="logo"><img src="LogoWheel.png" alt="image flottante" /></a>
+        <div class="header-right">
+            <a class="Acceuil" id="BtnAcceuil">Acceuil</a>
+            <a class="Contact" id="BtnContact">Contact</a>
+            <a class="About" id="BtnAbout">À propos</a>
+        </div>
+    </div>
+
+
+    <article class="ArticlePanelMeteo" id="articlePanelMeteo">
+        <div class="DivAffichage" id="divAffichage">
+            <div class="divzonetemp">
+                <a id="zone_meteo_Temp" class="Zone_meteo_Temp">XX°C</a>
+            </div>
+
+
+            <div class="PanelTempmaxmin">
+                <a id="zone_meteo_Temp_Max" class="Zone_meteo_Temp_Max">XX°C</a>
+                <a id="zone_meteo_Temp_Min" class="Zone_meteo_Temp_Min">XX°C</a>
+            </div>
+        </div>
+
+        <div class="DivRecherche" id="divRecherche">
+            <input type="text" name="ville" id="ville" required class="InputVille">
+            <input type="button" value="Actualiser" onclick="BtnActualiseClickGET()" class="BtnActualiser" />
+            <input type="image" id="image" alt="localisation" src="image_localisation.png">
+        </div>
+
+    </article>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-center">
+            <a class="AcceuilBottom" id="BtnAcceuilBottom">Acceuil</a>
+            <a class="ContactBottom" id="BtnContactBottom">Contact</a>
+            <a class="AboutBottom" id="BtnAboutBottom">À propos</a>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+    <script src="Météo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
