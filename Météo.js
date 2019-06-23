@@ -9,6 +9,7 @@ var callBackGetSuccess = function (data) {
     Température.innerHTML = Math.round(data.main.temp) + "°C";
     Température_Temp_Max.innerHTML = Math.round(data.main.temp_max) + "°C";
     Température_Temp_Min.innerHTML = Math.round(data.main.temp_min) + "°C";
+    console.log(data.weather[0].icon);
 }
 
 var callBackGetSuccessGeolocation = function (data) {
@@ -46,8 +47,7 @@ function OuverturePage() {
 
 function geolocalisation() {
     geolocalisation2();
-    console.log(latitude);
-    console.log(longitude);
+
     var url = ("https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=ea108f94d782f6ac139ea7e4d3525816&units=metric");
 
     $.get(url, callBackGetSuccessGeolocation).done(function () {

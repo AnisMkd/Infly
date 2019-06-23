@@ -55,17 +55,27 @@ body {
     margin-bottom: 16px;
 }
 
+.AllAffichage {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
 .DivAffichage {
     font-family: arial;
     display: flex;
     justify-content: center;
-    padding-top: 130px;
+    padding-top: 40px;
+
 }
+
+
 
 .PanelTempmaxmin {
     font-size: 30px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 5px;
 }
 
 .divzonetemp {
@@ -73,13 +83,17 @@ body {
     padding-right: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.ClassImgMeteo {
+    padding-left: 20%;
+    height: 150px;
+    width: 150px;
 }
 
 
-
 .DivRecherche {
-    padding-top: 170px;
+    padding-top: 90px;
     display: flex;
     justify-content: center;
 }
