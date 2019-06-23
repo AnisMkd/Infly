@@ -54,6 +54,7 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
 .DivAffichage {
     font-family: arial;
     display: flex;
@@ -79,14 +80,18 @@ body {
 
 .DivRecherche {
     padding-top: 170px;
+    display: flex;
+    justify-content: center;
 }
 
 .BtnActualiser {
     font-size: 17px;
     background-color: #E4E1DA;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-
+.BtnLocaliser {}
 
 
 
